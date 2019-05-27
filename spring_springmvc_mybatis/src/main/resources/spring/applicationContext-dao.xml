@@ -10,12 +10,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
-	<!-- 数据库连接池 -->
-	<!-- 加载配置文件 -->
-	<!-- 
-		由db.properties改为*.properties, 这样也会加载其他的属性文件 可以使用 @Value
-		由于父子容器关系，service层（父）的属性文件在springmvc层（子）是读取不到的，子只能读取对象，属性是读取不到的
-	 -->
+	<!-- 配置文件 -->
 	<context:property-placeholder location="classpath:resource/*.properties" />
 	<!-- 数据库连接池 -->
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
@@ -42,7 +37,7 @@
 	
 	<!-- 配置扫描包，加载mapper代理对象 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="spring.springmvc.mybatis.mapper"></property>
+		<property name="basePackage" value="com.karat.cn.mapper"></property>
 	</bean>
 
 </beans>
