@@ -15,7 +15,7 @@
      
      
      <!-- 加载mongodb的属性配置文件 -->  
-     <context:property-placeholder location="classpath:*.properties" />
+     <context:property-placeholder location="classpath:db.properties" />
  
      <!--1.开启注解-->
      <context:annotation-config/>
@@ -34,7 +34,7 @@
      <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
          <constructor-arg ref="mongo"/>
          <!-- 设置使用的数据库 名-->
-         <constructor-arg name="databaseName" value="${mongo.dbname}"/>
+         <constructor-arg name="databaseName" value="${mongo.db}"/>
      </bean>
      
      

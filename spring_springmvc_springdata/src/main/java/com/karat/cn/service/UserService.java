@@ -31,10 +31,10 @@ public interface UserService {
 	 * @return
 	 */
 	public User findById(String id);
-	     
+
 	/**
 	 * 根据用户名查询
-	 * @param id
+	 * @param username
 	 * @return
 	 */
 	public User findByUsername(String username);

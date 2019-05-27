@@ -5,11 +5,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 /**
- * @Document(collection = "user")这个注解和Hibernate的注解Entiry非常相似，就是定义一个文档，对象MongoDB存储的Collection（表）的名称是user
- * @Id指该字段是主键，不能缺少
- * @Field("username")指该字段映射MongoDB的实际字段，如果一致可以省略、
- * @author 开发
+ * @Document(collection = "user")
+ * 这个注解和Hibernate的注解Entiry非常相似，
+ * 就是定义一个文档，对象MongoDB存储的Collection（表）的名称是user
+ * @Id
+ * 指该字段是主键，不能缺少
+ * @Field("username")
+ * 指该字段映射MongoDB的实际字段，如果一致可以省略、
  *
+ * @author 开发
  */
 @Document(collection="user")
 public class User {

@@ -7,7 +7,7 @@
     <display-name>spring_springmvc_springdata</display-name>
    
    <welcome-file-list>
-     <welcome-file>index/index</welcome-file>
+     <welcome-file>index.jsp</welcome-file>
    </welcome-file-list>
    
    <!-- 加载Spring IOC容器 -->
@@ -20,7 +20,6 @@
    <listener>
      <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
    </listener>
-   
    <!-- Introspector缓存清除监听器 -->
    <listener>
      <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
@@ -34,12 +33,12 @@
        <param-value>UTF-8</param-value>
      </init-param>
    </filter>
-   
    <filter-mapping>
      <filter-name>encoding</filter-name>
      <url-pattern>/*</url-pattern>
    </filter-mapping>
-   
+
+
    <!-- 配置DispatcherServlet -->
    <servlet>
      <servlet-name>springMvc</servlet-name>
@@ -51,14 +50,6 @@
        <param-value>classpath:spring-mvc.xml</param-value>
      </init-param>
    </servlet>
- 
-    <!-- 这里再配一次，才可以使用欢迎页 
-     标签里面一定要以/开头，与欢迎页的区别就是这里
-    <url-pattern>/...</url-pattern> -->
-   <servlet-mapping>  
-       <servlet-name>springMvc</servlet-name>  
-      <url-pattern>/index/index</url-pattern>  
-   </servlet-mapping>
    
    <!-- 可以配*.do, *.action(了解) / (重点): 所有的请求都会被spring mvc解析，但必须对静态资源文件进行过滤放行，建议大家使用这种方式 
          /* : 不建议大家使用  -->
