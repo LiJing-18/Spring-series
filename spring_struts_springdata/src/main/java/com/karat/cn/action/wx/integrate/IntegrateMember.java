@@ -13,24 +13,32 @@ public class IntegrateMember {
 		// 基本信息
 		MemberInfo memberInfo = MemberInfoDB.findMemberInfoByMemberId(memberId, repositoryDaoExtra);
 		if (null != memberInfo) {
-			return findVoMemberDataCom(memberInfo, repositoryDaoExtra);
+			return findVoMemberDataCom(memberInfo);
 		}
 		return null;
 	}
-	
-	private static VoMemberData findVoMemberDataCom(MemberInfo memberInfo, RepositoryDaoExtra repositoryDaoExtra) {
+	/**
+	 * 组装vo
+	 * @param memberInfo
+	 * @return
+	 */
+	private static VoMemberData findVoMemberDataCom(MemberInfo memberInfo) {
 		VoMemberData voMemberData = new VoMemberData();
-		voMemberData = memberInfoToVoMemberData(voMemberData, memberInfo,repositoryDaoExtra);
+		voMemberData = memberInfoToVoMemberData(voMemberData, memberInfo);
 		return voMemberData;
 	}
-	
-	private static VoMemberData memberInfoToVoMemberData(VoMemberData voMemberData, MemberInfo memberInfo,RepositoryDaoExtra repositoryDaoExtra) {
+
+	/**
+	 * 组装vo
+	 * @param voMemberData
+	 * @param memberInfo
+	 * @return
+	 */
+	private static VoMemberData memberInfoToVoMemberData(VoMemberData voMemberData, MemberInfo memberInfo) {
 		voMemberData.setMemberId(memberInfo.getId());
 		voMemberData.setNickname(memberInfo.getNickname());
 		voMemberData.setHeadImgUrl(memberInfo.getHeadImgUrl());
-		voMemberData.setPhone(memberInfo.getPhone());
 		voMemberData.setRedPacket(memberInfo.getIntegrate());
-		voMemberData.setIdentity(memberInfo.getIdentity());
 		return voMemberData;
 	}
 }

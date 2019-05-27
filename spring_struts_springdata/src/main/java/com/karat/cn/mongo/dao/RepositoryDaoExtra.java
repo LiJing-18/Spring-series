@@ -53,8 +53,9 @@ public interface RepositoryDaoExtra {
 
 	/**
 	 * 根据id查询单个对象数据
-	 * 
-	 * @param query
+	 * @param id
+	 * @param t
+	 * @param <T>
 	 * @return
 	 */
 	public <T> T findById(String id, Class<T> t);
