@@ -21,12 +21,6 @@
           
    <!--以下映射器和适配器的配置可以通过注解驱动来代替  -->
    <mvc:annotation-driven/>
-          
-          
-   <!--对静态资源文件的访问  必须要设置，因为在springmvc的配置中配置了/匹配所有请求，
-         此工程所有的请求(.do ,addUser,js/image/css)都会被springmvc解析,
-         必须对所有的静态资源文件进行过滤放行 -->
-   <mvc:resources mapping="/resource/**" location="/resource/" />
             
    <!-- 视图渲染 jsp/freemaker/velocity-->
    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -34,5 +28,9 @@
         <property name="prefix" value="/WEB-INF/pages/"></property>
         <!-- 文件的后缀 -->
         <property name="suffix" value=".jsp"></property>
-   </bean>      
+   </bean>
+    
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    </bean>
 </beans>
