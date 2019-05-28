@@ -20,7 +20,11 @@ import com.google.gson.JsonSerializer;
  *
  */
 public class TimestampTypeAdapter implements JsonSerializer<Timestamp>, JsonDeserializer<Timestamp>  {
+
+
 	private final DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+
 	@Override
 	public Timestamp deserialize(JsonElement json, Type arg1,
 			JsonDeserializationContext arg2) throws JsonParseException {

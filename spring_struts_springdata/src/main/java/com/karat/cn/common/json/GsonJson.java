@@ -29,7 +29,6 @@ public class GsonJson {
 		return t;
 	}
 
-	@SuppressWarnings("unchecked")
 	public static <T> T parseJsonToData(String json, TypeToken<T> token) {
 		T obj = (T) gson.fromJson(json, token.getType());
 		return obj;

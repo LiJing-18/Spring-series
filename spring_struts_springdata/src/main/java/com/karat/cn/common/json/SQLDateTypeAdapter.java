@@ -15,6 +15,7 @@ import com.google.gson.JsonSerializer;
  *
  */
 public class SQLDateTypeAdapter implements JsonSerializer<java.sql.Date> {
+
 	private final DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
 	@Override

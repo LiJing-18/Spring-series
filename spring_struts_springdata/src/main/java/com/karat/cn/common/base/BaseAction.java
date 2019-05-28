@@ -2,16 +2,12 @@ package com.karat.cn.common.base;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Map;
-import java.util.Map.Entry;
 
 import javax.annotation.Resource;
-import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.ServletActionContext;
 
-import com.google.gson.JsonObject;
 import com.opensymphony.xwork2.ActionSupport;
 
 import com.karat.cn.common.json.GsonJson;
@@ -45,23 +41,6 @@ public class BaseAction extends ActionSupport {
 		out.write(jsonstr);
 		out.flush();
 		out.close();
-	}
-
-	public <T> T decodParams(Class<T> c) {
-		ServletRequest request = ServletActionContext.getRequest();
-
-		JsonObject obj = new JsonObject();
-		Map<String, String[]> params = request.getParameterMap();
-
-		if (params != null && params.size() > 0) {
-			for (Entry<String, String[]> entry : params.entrySet()) {
-				if (entry.getValue() != null && entry.getValue().length > 0) {
-					obj.addProperty(entry.getKey(), entry.getValue()[0]);
-				}
-			}
-		}
-
-		return GsonJson.parseJsonToData(obj, c);
 	}
 
 }
