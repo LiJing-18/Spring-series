@@ -19,13 +19,14 @@ import com.karat.cn.mongo.model.MemberInfo;
 
 
 /**
- * 用户管理设置
+ * 用户信息接口
  * @author 开发
  *
  */
 @Namespace("")
 @ParentPackage("jshop")
 public class MemberAction extends BaseAction {
+
 	private static final long serialVersionUID = -5463602245463393961L;
 	private int rp;
 	private boolean sucflag;
