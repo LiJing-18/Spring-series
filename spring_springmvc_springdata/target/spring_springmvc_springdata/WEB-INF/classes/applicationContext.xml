@@ -36,6 +36,5 @@
          <!-- 设置使用的数据库 名-->
          <constructor-arg name="databaseName" value="${mongo.db}"/>
      </bean>
-     
-     
+
 </beans>

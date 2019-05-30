@@ -2,29 +2,22 @@
  <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"  
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  
-     http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
-     
-    <display-name>spring_springmvc_springdata</display-name>
-   
-   <welcome-file-list>
-     <welcome-file>index.jsp</welcome-file>
-   </welcome-file-list>
+     http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
    
    <!-- 加载Spring IOC容器 -->
    <context-param>
      <param-name>contextConfigLocation</param-name>
      <param-value>classpath:applicationContext.xml</param-value>
    </context-param>
-   
+
    <!-- spring上下文监听器 -->
    <listener>
      <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
    </listener>
-   <!-- Introspector缓存清除监听器 -->
-   <listener>
-     <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
-   </listener>
-   
+
+
+  <!-- 解决post乱码 -->
    <filter>
      <filter-name>encoding</filter-name>
      <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -49,6 +42,7 @@
        <param-name>contextConfigLocation</param-name>
        <param-value>classpath:spring-mvc.xml</param-value>
      </init-param>
+     <load-on-startup>1</load-on-startup>
    </servlet>
    
    <!-- 可以配*.do, *.action(了解) / (重点): 所有的请求都会被spring mvc解析，但必须对静态资源文件进行过滤放行，建议大家使用这种方式 
