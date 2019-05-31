@@ -38,92 +38,101 @@ public class MemberInfo {
 	 */
 	private int sex;
 	/**
-	 * 电话
+	 * 国
 	 */
-	private String phone;
+	private String country;
 	/**
-	 * 创建时间(2018-05-03 13:05:20)
+	 * 省
+	 */
+	private String province;
+	/**
+	 * 市
+	 */
+	private String city;
+	/**
+	 * 创建时间
 	 */
 	private String createdDate;
-	/**
-	 * 等级(当前导购为一批导购时存1,为二批导购时存上级导购id,为普通用户时存0)
-	 */
-	private String leval;
-	/**
-	 * 积分
-	 */
-	private String integrate;
-	/**
-	 * 用户身份(0:普通用户1:预备导购2:导购)
-	 */
-	private String identity;
+
+
 	public String getId() {
 		return id;
 	}
+
 	public void setId(String id) {
 		this.id = id;
 	}
+
 	public String getOpenId() {
 		return openId;
 	}
+
 	public void setOpenId(String openId) {
 		this.openId = openId;
 	}
-	public String getNickname() {
-		return nickname;
-	}
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
-	}
-	public String getHeadImgUrl() {
-		return headImgUrl;
-	}
-	public void setHeadImgUrl(String headImgUrl) {
-		this.headImgUrl = headImgUrl;
-	}
-	public int getSex() {
-		return sex;
-	}
-	public void setSex(int sex) {
-		this.sex = sex;
-	}
-	public String getCreatedDate() {
-		return createdDate;
-	}
-	public void setCreatedDate(String createdDate) {
-		this.createdDate = createdDate;
-	}
+
 	public String getUnionid() {
 		return unionid;
 	}
+
 	public void setUnionid(String unionid) {
 		this.unionid = unionid;
 	}
-	public String getPhone() {
-		return phone;
+
+	public String getNickname() {
+		return nickname;
 	}
-	public void setPhone(String phone) {
-		this.phone = phone;
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
 	}
-	public String getLeval() {
-		return leval;
+
+	public String getHeadImgUrl() {
+		return headImgUrl;
 	}
-	public void setLeval(String leval) {
-		this.leval = leval;
+
+	public void setHeadImgUrl(String headImgUrl) {
+		this.headImgUrl = headImgUrl;
 	}
-	public String getIntegrate() {
-		return integrate;
+
+	public int getSex() {
+		return sex;
 	}
-	public void setIntegrate(String integrate) {
-		this.integrate = integrate;
+
+	public void setSex(int sex) {
+		this.sex = sex;
 	}
-	public String getIdentity() {
-		return identity;
+
+	public String getCountry() {
+		return country;
 	}
-	public void setIdentity(String identity) {
-		this.identity = identity;
+
+	public void setCountry(String country) {
+		this.country = country;
 	}
-	
-	
+
+	public String getProvince() {
+		return province;
+	}
+
+	public void setProvince(String province) {
+		this.province = province;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(String createdDate) {
+		this.createdDate = createdDate;
+	}
 }
 

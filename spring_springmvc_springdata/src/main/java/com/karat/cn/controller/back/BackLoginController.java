@@ -29,11 +29,6 @@ public class BackLoginController {
 	@Autowired
 	private MongoTemplate mongoTemplate;
 
-	@RequestMapping(value = "/toTest")
-	public String toTest() {
-		return "login";
-	}
-
 	/**
 	 * 管理员登陆
 	 * @return

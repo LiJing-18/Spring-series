@@ -27,7 +27,7 @@ public class IntegrateMember {
 		voMemberData.setMemberId(memberInfo.getId());
 		voMemberData.setNickname(memberInfo.getNickname());
 		voMemberData.setHeadImgUrl(memberInfo.getHeadImgUrl());
-		voMemberData.setRedPacket(memberInfo.getIntegrate());
+		voMemberData.setRedPacket(memberInfo.getCity());
 		return voMemberData;
 	}
 
