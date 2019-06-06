@@ -16,7 +16,7 @@
  
 #### spring+struts+hibernate
 * 暂无
-#### spring+struts+springDataNongo
+#### spring+struts+springDataMongo
 ![登陆](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606121634.png)
 ![首页](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606121652.png)
 ![数据展示](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606122025.png)

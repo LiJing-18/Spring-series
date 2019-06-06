@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a97ed1-0c5f-4c77-aff8-33aa11382bad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_mybatis/target/spring_springmvc_mybatis.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_mybatis/target/spring_springmvc_mybatis.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring_struts_springdata/target/" />
     <ignored path="$PROJECT_DIR$/spring_springmvc_springdata/target/" />
@@ -29,8 +28,8 @@
     <session id="858622291">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -43,7 +42,7 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,7 +53,7 @@
           <entry key="java" value="243" />
           <entry key="js" value="22" />
           <entry key="jsp" value="97" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="png" value="7" />
           <entry key="properties" value="21" />
           <entry key="xml" value="137" />
@@ -69,7 +68,7 @@
           <entry key="JAVA" value="243" />
           <entry key="JSP" value="97" />
           <entry key="JavaScript" value="22" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="Properties" value="21" />
           <entry key="XML" value="137" />
         </counts>
@@ -81,7 +80,7 @@
           <entry key="java" value="1546" />
           <entry key="js" value="4" />
           <entry key="jsp" value="195" />
-          <entry key="md" value="12" />
+          <entry key="md" value="13" />
           <entry key="xml" value="174" />
         </counts>
       </usages-collector>
@@ -91,7 +90,7 @@
           <entry key="JAVA" value="1546" />
           <entry key="JSP" value="195" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="12" />
+          <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="85" />
           <entry key="XML" value="174" />
         </counts>
@@ -99,7 +98,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/UserAction.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/common/enumeration/StaticKey.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/index.jsp" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/jsp/member/memberinfoment.jsp" />
@@ -174,6 +172,7 @@
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -208,8 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,16 +534,17 @@
       <workItem from="1559532750260" duration="51000" />
       <workItem from="1559793535427" duration="4620000" />
       <workItem from="1559800783398" duration="77000" />
+      <workItem from="1559801015614" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73547000" />
+    <option name="totallyTimeSpent" value="73564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="21" width="1716" height="959" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24087591" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24452555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,10 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1189">
           <caret line="48" column="39" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,9 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,7 +879,9 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="486">
+            <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
