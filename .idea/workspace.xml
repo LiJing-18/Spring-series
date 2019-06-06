@@ -2,34 +2,64 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring_springmvc_springdata:war" />
+      <artifact name="spring_struts_springdata:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a97ed1-0c5f-4c77-aff8-33aa11382bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/vue/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/vue/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/vue/laypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/vue/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/vue/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/pic/20190606121138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/pic/20190606121224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/common/jiguang/JimUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606121634.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606121652.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606122025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606122041.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/integrate/IntegrateMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/integrate/IntegrateMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/model/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/model/MemberInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/lib/ueditor/1.4.3/third-party/video-js/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/lib/ueditor/1.4.3/third-party/video-js/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/back/AoneMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/back/AoneMemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/back/BackLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/back/BackLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/wx/integrate/IntegrateMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/model/MemberInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/model/MemberInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/wx/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/classes/com/karat/cn/controller/wx/MemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/back/AoneMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/back/AoneMemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/back/BackLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/back/BackLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/wx/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/WEB-INF/classes/com/karat/cn/controller/wx/MemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/static/h-ui.admin/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring_springmvc_springdata/target/spring_springmvc_springdata/admin/static/h-ui.admin/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/cfg/service/expire.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/expire.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/cfg/spring/spring-job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/cfg/spring/spring-quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/cfg/spring/spring-thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-thread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/cfg/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/email.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/jpushcfg.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/jpushcfg.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/dev/synthesis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/dev/synthesis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/conf/pro/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/pro/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/js/plugins/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/js/plugins/video/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/cfg/service/expire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/cfg/spring/spring-job.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/cfg/spring/spring-quartz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/cfg/spring/spring-thread.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/cfg/spring/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/com/karat/cn/action/back/MemberAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/classes/com/karat/cn/action/back/MemberAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/classes/com/karat/cn/common/qiniu/QiniuUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/classes/com/karat/cn/common/qiniu/QiniuUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata.war" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/WEB-INF/classes/com/karat/cn/action/back/MemberAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/WEB-INF/classes/com/karat/cn/action/back/MemberAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/WEB-INF/classes/com/karat/cn/common/qiniu/QiniuUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/WEB-INF/classes/com/karat/cn/common/qiniu/QiniuUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/admin/js/plugins/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring_struts_springdata/target/spring_struts_springdata/admin/js/plugins/video/video.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring_struts_springdata/target/" />
     <ignored path="$PROJECT_DIR$/spring_springmvc_springdata/target/" />
@@ -42,178 +72,91 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="858622291">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="16" />
-          <entry key="html" value="23" />
-          <entry key="java" value="210" />
-          <entry key="js" value="21" />
+          <entry key="class" value="19" />
+          <entry key="css" value="1" />
+          <entry key="html" value="30" />
+          <entry key="java" value="239" />
+          <entry key="js" value="22" />
           <entry key="jsp" value="95" />
           <entry key="md" value="2" />
-          <entry key="properties" value="19" />
-          <entry key="xml" value="103" />
+          <entry key="png" value="7" />
+          <entry key="properties" value="21" />
+          <entry key="xml" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="16" />
-          <entry key="HTML" value="23" />
-          <entry key="JAVA" value="210" />
+          <entry key="CLASS" value="19" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="30" />
+          <entry key="Image" value="7" />
+          <entry key="JAVA" value="239" />
           <entry key="JSP" value="95" />
-          <entry key="JavaScript" value="21" />
+          <entry key="JavaScript" value="22" />
           <entry key="Markdown" value="2" />
-          <entry key="Properties" value="19" />
-          <entry key="XML" value="103" />
+          <entry key="Properties" value="21" />
+          <entry key="XML" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="85" />
-          <entry key="html" value="470" />
-          <entry key="java" value="1488" />
+          <entry key="html" value="495" />
+          <entry key="java" value="1546" />
           <entry key="js" value="4" />
           <entry key="jsp" value="195" />
           <entry key="md" value="12" />
-          <entry key="xml" value="164" />
+          <entry key="xml" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="470" />
-          <entry key="JAVA" value="1488" />
+          <entry key="HTML" value="495" />
+          <entry key="JAVA" value="1546" />
           <entry key="JSP" value="195" />
           <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="85" />
-          <entry key="XML" value="164" />
+          <entry key="XML" value="174" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/integrate/IntegrateMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/vo/member/VoMemberData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding>
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/model/MemberInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="23" />
-              <folding>
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1435#1436#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1540#1541#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#1770#1771#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1848#1849#0" expanded="true" />
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#1959#1960#0" expanded="true" />
-                <element signature="e#1996#1997#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -222,6 +165,7 @@
       <find>adminlogin</find>
       <find>fileupload</find>
       <find>&lt;%=basePath%&gt;</find>
+      <find>slf4j-api</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,9 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/jump.jsp" />
-        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/authorityjump.jsp" />
-        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/authorityfalied.jsp" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/UserAction.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/common/enumeration/StaticKey.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/index.jsp" />
@@ -246,14 +187,12 @@
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/header.jsp" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/jsp/aone/aoneMemberInfoment.jsp" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/ShareInfoAction.java" />
-        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/ImgTAction.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/common/util/BaseTools.java" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/jsp/aone/aoneMemberInfo.jsp" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/admin/js/other/aone/aoneMemberInfo.js" />
         <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/AoneMemberInfoAction.java" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/vo/member/ResponseMember.java" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/util/BaseTools.java" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/abs/Response.java" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/ShareInfoController.java" />
@@ -273,14 +212,19 @@
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/pom.xml" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/new/member/member.html" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/model/MemberInfo.java" />
-        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html" />
         <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/integrate/IntegrateMember.java" />
+        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/common/jiguang/JimUtils.java" />
+        <option value="$PROJECT_DIR$/spring_struts_springdata/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java" />
+        <option value="$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java" />
+        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java" />
+        <option value="$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -304,9 +248,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="320" />
-    <option name="y" value="44" />
-    <option name="width" value="1556" />
+    <option name="x" value="307" />
+    <option name="y" value="17" />
+    <option name="width" value="1549" />
     <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,7 +260,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,131 +267,19 @@
               <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
               <item name="springSeries" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
-              <item name="integrate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springSeries" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springSeries" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_springmvc_springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559212598982" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aone_old" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559797676711" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -457,12 +288,12 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\resources" />
+      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp\admin" />
       <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp" />
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp\WEB-INF" />
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp\static" />
-      <recent name="E:\JavaEE\springSeries\spring_struts_springdata\src\main\webapp\admin\js\other\aone" />
-      <recent name="E:\JavaEE\springSeries\spring_struts_springdata\src\main\webapp\admin\jsp\aone" />
+      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\java\com\karat\cn\common" />
+      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\java\com\karat\cn\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.karat.cn.common.qiniu" />
@@ -471,12 +302,12 @@
       <recent name="com.karat.cn.common.util" />
       <recent name="com.karat.cn.action.back" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp\admin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaEE\springSeries\spring_struts_springdata\src\main\resources\spring" />
+      <recent name="E:\JavaEE\springSeries\spring_struts_springdata\src\main\resources\resource" />
+      <recent name="E:\JavaEE\springSeries\spring_struts_springdata\src\main\webapp\pic" />
+      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp\pic" />
       <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\webapp" />
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\java\com\karat\cn\common" />
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\java\com\karat\cn\model" />
-      <recent name="E:\JavaEE\springSeries\spring_springmvc_springdata\src\main\java\com\karat\cn\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -491,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sss">
+  <component name="RunManager" selected="Tomcat Server.strutu_ss">
     <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -738,17 +569,32 @@
       <workItem from="1559200025691" duration="4003000" />
       <workItem from="1559204916302" duration="4011000" />
       <workItem from="1559209863151" duration="2509000" />
-      <workItem from="1559273712572" duration="12437000" />
+      <workItem from="1559273712572" duration="12768000" />
+      <workItem from="1559447920048" duration="3626000" />
+      <workItem from="1559457686757" duration="708000" />
+      <workItem from="1559461202070" duration="905000" />
+      <workItem from="1559462915875" duration="466000" />
+      <workItem from="1559463619565" duration="7000" />
+      <workItem from="1559464215576" duration="706000" />
+      <workItem from="1559464983290" duration="11000" />
+      <workItem from="1559465146387" duration="76000" />
+      <workItem from="1559465301153" duration="99000" />
+      <workItem from="1559465583546" duration="1223000" />
+      <workItem from="1559467067213" duration="6000" />
+      <workItem from="1559467117006" duration="485000" />
+      <workItem from="1559469200472" duration="112000" />
+      <workItem from="1559532750260" duration="51000" />
+      <workItem from="1559793535427" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60038000" />
+    <option name="totallyTimeSpent" value="71214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="30" width="1683" height="959" extended-state="0" />
+    <frame x="307" y="17" width="1549" height="959" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26811105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -759,7 +605,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47050753" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.615193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43337485" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -776,7 +622,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.12787089" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.12752075" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -794,292 +640,306 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/common/util/Validate.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/cn/jpush/api/jiguang-common/1.1.3/jiguang-common-1.1.3.jar!/cn/jiguang/common/resp/BaseResult.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2944">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/js/H-ui.admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/mongo/db/MemberInfoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_struts_springdata/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="197" column="21" selection-start-line="192" selection-start-column="8" selection-end-line="197" selection-end-column="21" />
+        <state relative-caret-position="-145">
+          <caret line="252" column="27" lean-forward="true" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/common/qiniu/QiniuUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/ImgTAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/AoneMemberInfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/abs/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/ShareInfoController.java" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/js/common/indexjs.js" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/jsp/member/memberinfoment.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/jsp/aone/aoneMemberInfoment.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/jsp/aone/aoneMemberInfo.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/MemberController.java" />
     <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/java/com/karat/cn/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/footer.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/left.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/time.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/jump.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/header.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/authorityjump.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/authorityfalied.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/js/xadmin.js" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/article-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/webapp/static/index.html">
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/mybatis/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/applicationContext-transaction.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        <state relative-caret-position="1269">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/static/index.html" />
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/java/com/karat/cn/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="23" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/vo/member/ResponseMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/common/util/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/java/com/karat/cn/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/java/com/karat/cn/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1189">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/css/H-ui.login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/ImgTController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="-145">
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="129" column="39" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_mybatis/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/new/member/member.html" />
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="123" column="59" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/static/h-ui.admin/js/H-ui.admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1131">
-          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/BackLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="42" />
+        <state relative-caret-position="125">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/KaratController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-2322">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/admin/member-list.html">
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+        <state relative-caret-position="-64">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/pic/20190606121138.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/webapp/pic/20190606121224.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/resource/pro/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/MemberAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/model/MemberInfo.java">
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/AoneMemberInfoAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2821">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/back/AoneMemberController.java">
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/java/com/karat/cn/action/back/ShareInfoAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="-148">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/vo/member/VoMemberData.java">
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/expire.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-job.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-quartz.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/spring/spring-thread.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_springmvc_springdata/src/main/java/com/karat/cn/controller/wx/integrate/IntegrateMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606121634.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606121652.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606122025.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts_springdata/src/main/webapp/pic/20190606122041.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -63,17 +63,7 @@ public class MemberAction extends BaseAction {
 			} else if (2 == info.getSex()) {
 				sex = "女性";
 			}
-			
-			String sf="";
-			if(info.getIdentity().equals("0")){
-				sf="普通用户";
-			}else if(info.getIdentity().equals("1")){
-				sf="预备导购";
-			}else if(info.getIdentity().equals("2")){
-				sf="正式导购";
-			}
-			
-			
+
 			Map<String, Object> cellMap = new HashMap<String, Object>();
 			cellMap.put("id", info.getId());
 			cellMap.put("cell", new Object[] {
@@ -84,7 +74,7 @@ public class MemberAction extends BaseAction {
 					 info.getPhone(),
 					 info.getIntegrate(),
 					 info.getCreatedDate(),
-					 sf
+					 "null"
 					});
 			rows.add(cellMap);
 		}

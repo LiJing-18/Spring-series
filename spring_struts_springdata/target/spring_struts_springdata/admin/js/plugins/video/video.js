@@ -3864,7 +3864,7 @@ _V_.Track = _V_.Component.extend({
   // The user agent is maintaining a list of which cues are active, and events are being fired accordingly.
   // In addition, for text tracks whose kind is subtitles or captions, the cues are being displayed over the video as appropriate;
   // for text tracks whose kind is descriptions, the user agent is making the cues available to the user in a non-visual fashion;
-  // and for text tracks whose kind is chapters, the user agent is making available to the user a mechanism by which the user can navigate to any point in the media resource by selecting a cue.
+  // and for text tracks whose kind is chapters, the user agent is making available to the user a mechanism by which the user can navigate to any point in the media pic by selecting a cue.
   // The showing by default state is used in conjunction with the default attribute on track elements to indicate that the text track was enabled due to that attribute.
   // This allows the user agent to override the state if a later track is discovered that is more appropriate per the user's preferences.
   show: function(){

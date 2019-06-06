@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * 请求接口
+ * 请求接口测试
  */
 @RestController
 @RequestMapping("wx")
@@ -17,6 +17,11 @@ public class MemberController {
     @Autowired
     private MongoTemplate mongoTemplate;
 
+    /**
+     *
+     * @param memberId
+     * @return
+     */
     @RequestMapping("memberById")
     public ResponseMember memberById(String memberId){
         ResponseMember response=new ResponseMember();

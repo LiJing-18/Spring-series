@@ -20,7 +20,7 @@
 	</context:component-scan>
 
 	<context:annotation-config />
-	<context:property-placeholder location="classpath*:conf/pro/*.properties" />
+	<context:property-placeholder location="classpath*:resource/pro/*.properties" />
 	<!-- mongo配置 -->
 	<mongo:mongo host="${mongo.host}" port="${mongo.port}" >
 	<mongo:options connections-per-host="100"

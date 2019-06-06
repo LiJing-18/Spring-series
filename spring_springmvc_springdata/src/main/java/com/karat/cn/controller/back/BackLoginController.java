@@ -1,6 +1,5 @@
 package com.karat.cn.controller.back;
 
-import com.alibaba.fastjson.JSON;
 import com.karat.cn.common.enumeration.UserEnum;
 import com.karat.cn.common.util.MD5Code;
 
@@ -11,11 +10,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 系统管理员接口
