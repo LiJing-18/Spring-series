@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	default-lazy-init="true" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!--定时器配置  -->
+	<context:component-scan base-package="com.karat.cn.task" />
+
+	<bean id="jobAdd" class="com.karat.cn.task.JobAdd" />
+	<bean id="jobUpdate" class="com.karat.cn.task.JobUpdate" />
+
+
+	<bean id="AddDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="jobAdd"></property>
+		<property name="targetMethod" value="execute"></property>
+		<property name="concurrent" value="false" /><!-- 作业不并发调度 -->
+	</bean>
+	<bean id="UpdateDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="jobUpdate"></property>
+		<property name="targetMethod" value="execute"></property>
+		<property name="concurrent" value="false" /><!-- 作业不并发调度 -->
+	</bean>
+
+
+
+	<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="AddDetail"></property>
+        <property name="cronExpression" value="0/2 * * * * ? "></property>
+    </bean>
+    <bean id="otherTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="UpdateDetail"></property>
+        <property name="cronExpression" value="0/5 * * * * ? "></property>
+    </bean>
+
+
+	<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+           <list>
+                <ref bean="cronTrigger"/>
+                <ref bean="otherTrigger"/>
+           </list>
+        </property>
+    </bean>
+
+</beans>

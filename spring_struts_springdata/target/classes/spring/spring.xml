@@ -20,7 +20,6 @@
 	<bean id="logger" class="org.slf4j.LoggerFactory" factory-method="getLogger">
 		<constructor-arg type="java.lang.String" value=""></constructor-arg>
 	</bean>
-	
 	<bean id="servlet_log" class="org.slf4j.LoggerFactory" factory-method="getLogger">
 		<constructor-arg type="java.lang.String" value="servlet_log"></constructor-arg>
 	</bean>	

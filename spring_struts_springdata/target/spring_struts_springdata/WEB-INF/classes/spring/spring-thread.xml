@@ -13,5 +13,25 @@
          http://www.springframework.org/schema/aop
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
+	<bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+	 	<!-- 线程池维护线程的最少数量  -->
+  		<property name="corePoolSize" value="5" />
+	  	<!-- 线程池维护线程的最大数量 -->
+	  	<property name="maxPoolSize" value="500" />
+	  	<!-- 线程池所使用的缓冲队列 -->
+	  	<property name="queueCapacity" value="500" />
+	  	<!-- 线程池维护线程所允许的空闲时间 -->
+	  	<property name ="keepAliveSeconds" value ="20000" />
+	</bean>
+	
+	
+	<bean id="singTimingExecutor" class="com.karat.cn.timerServer.thread.SingletonInfoExecutor">
+  		<constructor-arg ref="taskExecutor" />
+  		<property name="singTimingService">
+	  		<ref bean="singTimingService"/>
+	  	</property>
+	</bean>
+	
+	<bean id="singTimingService" class="com.karat.cn.timerServer.service.impl.SingletonInfoServiceImpl" />
 	
 </beans>

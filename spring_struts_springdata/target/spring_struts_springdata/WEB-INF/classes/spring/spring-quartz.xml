@@ -12,8 +12,65 @@
       	 http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
          http://www.springframework.org/schema/aop
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
-         
-    
-	<import resource="spring-job.xml" />
+     
+    <bean id="checkTriggerListener"
+		class="com.karat.cn.timerServer.job.listener.CheckTriggerListener" >
+		<property name="logger">
+			<ref bean="thread_log"/>
+		</property>
+	</bean>
+	
+	<!--开启定时任务  （3）-->
+	<bean id="startQuertzUnReal" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+			<!-- 配置定时时间（2）-->
+				<ref bean="unRealGetReward"/>
+			</list>
+		</property>
+		<property name="globalTriggerListeners">
+			<list>
+				<ref bean="checkTriggerListener" />
+			</list>
+		</property>
+		<!-- Quartz配置 -->
+		<property name="quartzProperties">
+			<props>
+				<prop key="org.quartz.threadPool.threadCount">10</prop>
+			</props>
+		</property>
+		<!-- 启动时延期25秒开始任务 -->
+		<property name="startupDelay" value="10" />
+	</bean>
+	
+	
+	<!-- 配置定时时间（2）-->
+	<bean id="unRealGetReward"  class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="unRealGetRewardJob" />
+		<!-- 每1分钟一次调度 -->
+        <property name="cronExpression" value="0/2 * * * * ?" />
+	</bean>
+	
+	<!-- 配置定时任务（1）-->
+	<bean id="unRealGetRewardJob"	class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="com.karat.cn.timerServer.job.SingletonExecutorJob" />
+		<property name="name" value="调动定时器"/>
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="logger">
+					<ref bean="thread_log"/>
+				</entry>
+				<entry key="runLogger">
+					<ref bean="run-log"/>
+				</entry>
+				<entry key="singTimingExecutor">
+					<ref bean="singTimingExecutor"/>
+				</entry>
+			</map>
+		</property>
+	</bean>
 
+	<import resource="spring.xml"></import>
+	<import resource="spring-thread.xml"></import>
 </beans>
