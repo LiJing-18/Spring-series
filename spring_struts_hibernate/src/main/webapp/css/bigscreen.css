@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+.left-content {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	background-color: #FFF;
+	box-shadow: 0 0 5px 6px #CAC8C8;
+}
+
+.right-content {
+	margin-left: 25%;
+	width: 75%;
+	background-color: #F8F8F8;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+.avatar img {
+	margin-top: 50px;
+}
+
+.info {
+	margin-top: 10px;
+}
+
+.left-content .list-phone {
+	display: none;
+}
+
+.contact a img {
+	width: 30px;
+	height: 30px;
+}
+
+.page-contact .on {
+	height: 10px;
+}
+
+.page-life .on {
+	height: 10px;
+}
+
+.page-contact .height {
+	height: 100px;
+}
+
+.page-tech .on {
+	height: 10px;
+}
+
+.page-tech .list .chr {
+	height: 200px;
+}
+
+.page-tech .list .chr .img img {
+	width: 260px;
+	height: 200px;
+}
+
+.page-tech .list .chr .content {
+	padding-top: 15px;	
+	margin-left: 285px;
+	margin-right: 25px;
+}
+
+.page-tech .list .chr .content .title {
+    font-size: 1.3rem;
+}
+
+.page-work .on {
+	height: 10px;
+}
+
+.page-about .on {
+	height: 10px;
+}
+
+.page-resume .header h3 {
+    margin-top: 100px;
+}
+
+.page-tech-article .on {
+	height: 10px;
+}
+
+.page-work-article .on {
+	height: 10px;
+}

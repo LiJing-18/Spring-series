@@ -8,8 +8,6 @@
  3 | 后台管理页面模板以及前端技术  | 待选择待完成
  4 | 配置线程池以及Quartz定时器  | 已完成
 #### spring+springMVC+springDataMongo
-![登陆](https://github.com/21karat/springSeries/blob/master/spring_springmvc_springdata/src/main/webapp/pic/20190606121138.png)
-![首页](https://github.com/21karat/springSeries/blob/master/spring_springmvc_springdata/src/main/webapp/pic/20190606121224.png)
 ##### 基础脚手架功能点
  序号  | 功能 | 进度 
  -------| ----|------
@@ -21,12 +19,14 @@
  6 | 配置redis缓存  | 待完成
  
 #### spring+struts+hibernate
-* 暂无
+##### 基础脚手架功能点
+ 序号  | 功能 | 进度 
+ -------| ----|------
+ 1 | SSH框架搭建  | 已完成
+ 2 | 数据库使用MySql实现增删改查  |  待完成
+ 3 | 网上找的模板(html+css+js+JQ)  | 待完成()
+ 4 | Spring3.0以后自带的task定时器  | 已完成
 #### spring+struts+springDataMongo
-![登陆](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606121634.png)
-![首页](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606121652.png)
-![数据展示](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606122025.png)
-![数据修改](https://github.com/21karat/springSeries/blob/master/spring_struts_springdata/src/main/webapp/pic/20190606122041.png)
 ##### 基础脚手架功能点
   序号  | 功能 | 进度 
  -------| ----|------

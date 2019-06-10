@@ -1,0 +1,856 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	font-family: 'Microsoft YaHei';
+}
+
+.avatar {
+	text-align: center;
+}
+
+.avatar img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+
+.info {
+	text-align: center;
+}
+
+.info span {
+	color: #111;
+	font-size: 28px;
+}
+
+.list ul {
+	list-style-type: none;
+	margin-top: 35px;
+	padding: 0;
+}
+
+.list ul li a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	color: #888;
+	letter-spacing: 5px;
+	transition: color .5s ease;
+}
+
+.list ul li a:hover {
+	color: #000;
+}
+
+.list ul li a.active {
+	color: #000;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact a img {
+	margin: 8px;
+	transition: opacity .5s ease;
+}
+
+.contact a:hover img {
+	opacity: 0.7;
+}
+
+.list-phone {
+	text-align: center;
+	margin: 18px 3% 0 3%;
+}
+
+.list-phone a {
+	color: #888;
+	font-size: 1.2rem;
+	letter-spacing: 3px;
+	transition: color .5s ease;
+}
+
+.list-phone a:hover {
+	color: #000;
+}
+
+.list-phone a.active {
+	color: #000;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 100px;
+	height: 50px;
+	background-color: #EEEEEE;
+}
+
+.footer p {
+	padding-top: 8px;
+	color: #555;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.page-contact .header {
+	margin: 25px 4%;
+}
+
+.page-contact .header .image {
+	text-align: center;
+}
+
+.page-contact .header .image img {
+	min-width: 110px;
+	max-width: 200px;
+	width: 20%;
+}
+
+.page-contact .header .line hr {
+	height: 2px;
+	border: none;
+	border-top: 2px solid #888;
+}
+
+.page-contact .content {
+	margin: 25px 4%;
+}
+
+.page-contact .content .left-msg .title {
+	margin-left: 25px;
+}
+
+.page-contact .content .right-msg .title {
+	margin-left: 25px;
+}
+
+.page-contact .content .left-msg .title h4 {
+	padding-top: 30px;
+	color: #555;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.page-contact .content .right-msg .title h4 {
+	padding-top: 30px;
+	color: #555;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.page-contact .content .right-msg .input {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.page-contact .content .right-msg .send {
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 20px;
+}
+
+.page-contact .content .left-msg .contact-info {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	padding-bottom: 10px;
+}
+
+.page-contact .content .left-msg .qrcode {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+.page-contact .content .left-msg .qrcode img {
+	width: 100%;
+	max-width: 200px;
+}
+
+.page-contact .content .left-msg .tips {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.page-contact .content .left-msg .tips p {
+	color: #888;
+    font-size: 0.8rem;
+}
+
+.page-life .header .line hr {
+	height: 2px;
+	border: none;
+	border-top: 2px solid #888;
+}
+
+.page-life .header {
+	margin: 25px 4%;
+}
+
+.page-life .header .image {
+	text-align: center;
+}
+
+.page-life .music .header .image img {
+	min-width: 65px;
+	width: 7%;
+}
+
+.page-life .video .header .image img {
+	min-width: 70px;
+	width: 7.5%;
+}
+
+.page-life .football .header .image img {
+	min-width: 73px;
+	width: 8%;
+}
+
+.page-life .music .content {
+	margin: 0 5%;
+}
+
+.page-life .video .content {
+	margin: 0 4%;
+}
+
+.page-life .football .content {
+	margin: 0 4%;
+}
+
+.page-life .music .title {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.page-life .video .title {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.page-life .football .title {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.page-life .title h4 {
+	color: #555;
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-life .music .content .list {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.page-life .music .content .more {
+	text-align: right;
+}
+
+.page-life .video .more {
+	text-align: center;
+}
+
+.page-resume .header {
+	position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url("/img/me.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-resume .header .on {
+    height: 10px;
+}
+
+.page-resume .header h3 {
+    margin-left: 15%;
+    color: white;
+}
+
+.page-resume .header h5 {
+    margin-left: 15%;
+    color: white;
+	font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-resume>.content {
+	margin: 25px 2.5%;
+}
+
+.page-resume .content .content-left .evaluate img {
+	margin-left: 8px;
+    margin-top: 10px;
+	width: 40px;
+    position: absolute;	
+}
+
+.page-resume .content .content-left .personal img {
+	margin-left: 8px;
+	width: 40px;
+    position: absolute;	
+}
+
+.page-resume .content .content-left .education img {
+	margin-left: 8px;
+	width: 40px;
+    position: absolute;	
+}
+
+.page-resume .content .content-left .interest img {
+	margin-left: 8px;
+	width: 40px;
+    position: absolute;	
+}
+
+.page-resume .content .content-left .evaluate h4 {
+	font-size: 1.8rem;
+	padding-top: 13px;
+	color: #F24B79;
+	margin-left: 58px;
+	margin-top: 0;
+}
+
+.page-resume .content .content-left .personal h4 {
+	font-size: 1.8rem;
+	padding-top: 6px;
+	color: #3AD3E1;
+	margin-left: 58px;
+}
+
+.page-resume .content .content-left .education h4 {
+	font-size: 1.8rem;
+	padding-top: 5px;
+	color: #E6A815;
+	margin-left: 58px;
+}
+
+.page-resume .content .content-left .interest h4 {
+	font-size: 1.8rem;
+	padding-top: 6px;
+	color: #F36138;
+	margin-left: 58px;
+}
+
+.page-resume .content .content-left hr {
+	height: 1px;
+    border: none;
+    border-top: 1px solid #CCC;
+}
+
+.page-resume .content .content-left .evaluate .content {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.page-resume .content .content-left .evaluate .content p {
+    color: #888;
+}
+
+.page-resume .content .content-left .evaluate .content p i {
+    font-size: 0.8rem;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: #F24B79;
+}
+
+.page-resume .content .content-left .personal .content hr {
+	margin-left: 8%;
+    margin-right: 8%;
+	height: 1px;
+    border: none;
+    border-top: 1px solid #CCC;
+}
+
+.page-resume .content .content-left .personal .content p {
+	color: #888;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-resume .content .content-left .education .content p {
+	color: #888;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.page-resume .content .content-left .interest .content {
+	padding-top: 15px;
+}
+
+.page-resume .content .content-left .interest .content img {
+	margin-left: 5%;
+    width: 40px;
+    position: static;
+    margin-bottom: 35px;
+}
+
+.page-resume .content .content-right .honor h4 {
+	margin-bottom: 9px;
+	color: #3ACAC0;
+	margin-top: 0;
+	padding-top: 13px;
+	margin-left: 25px;
+	font-size: 1.8rem;
+}
+
+.page-resume .content .content-right .honor h4 span {
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+
+.page-resume .content .content-right .honor hr {
+	height: 1px;
+    border: none;
+    border-top: 1px solid #CCC;	
+}
+
+.page-resume .content .content-right .honor .content {
+    margin-left: 5%;
+    margin-right: 5%;
+	padding-bottom: 10px;
+}
+
+.page-resume .content .content-right .honor .content i {
+	font-size: 0.8rem;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: #3ACAC0;	
+}
+
+.page-resume .content .content-right .honor .mark i {
+	position: absolute;
+	font-size: 2.3rem;
+	top: -4px;
+    right: -7px;
+    color: #3ACAC0;	
+}
+
+.page-resume .content .content-right .honor .content p {
+    color: #888;	
+}
+
+.page-resume .content .content-right .skill h4 {
+	margin-bottom: 9px;
+	color: #435DCC;
+	margin-top: 0;
+	padding-top: 13px;
+	margin-left: 25px;
+	font-size: 1.8rem;
+}
+
+.page-resume .content .content-right .skill h4 span {
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+
+.page-resume .content .content-right .skill hr {
+	height: 1px;
+    border: none;
+    border-top: 1px solid #CCC;	
+}
+
+.page-resume .content .content-right .skill .mark i {
+	position: absolute;
+	font-size: 2.3rem;
+	top: -4px;
+    right: -7px;
+    color: #435DCC;	
+}
+
+.page-resume .content .content-right .skill .content h5 {
+	margin-left: 20px;
+    font-size: 1.2rem;
+    color: #435DCC;	
+}
+
+.page-resume .content .content-right .skill .content {
+    margin-left: 5%;
+    margin-right: 5%;
+	padding-bottom: 10px;
+}
+
+.page-resume .content .content-right .skill .content i {
+	font-size: 0.8rem;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: #435DCC;	
+}
+
+.page-resume .content .content-right .skill .content p {
+    color: #888;	
+}
+
+.page-resume .content .content-right .skill .content .chr {
+	margin-left: 20px;
+}
+
+.page-resume .content .content-right .skill .content span {
+    color: #555;	
+	font-weight: 600;
+}
+
+.page-resume .content .content-right .experience h4 {
+	margin-bottom: 9px;
+	color: #00B0FF;
+	margin-top: 0;
+	padding-top: 13px;
+	margin-left: 25px;
+	font-size: 1.8rem;
+}
+
+.page-resume .content .content-right .experience h4 span {
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+
+.page-resume .content .content-right .experience hr {
+	height: 1px;
+    border: none;
+    border-top: 1px solid #CCC;	
+}
+
+.page-resume .content .content-right .experience .mark i {
+	position: absolute;
+	font-size: 2.3rem;
+	top: -4px;
+    right: -7px;
+    color: #00B0FF;	
+}
+
+.page-resume .content .content-right .experience .content {
+    margin-left: 5%;
+    margin-right: 5%;
+	padding-bottom: 10px;
+}
+
+.page-resume .content .content-right .experience .content h5 {
+    margin-left: 20px;
+    color: #00B0FF;
+    font-size: 1.3rem;
+}
+
+.page-resume .content .content-right .experience .content h5 span {
+	margin-left: 10px;
+    font-size: 1rem;
+}
+
+.page-resume .content .content-right .experience .content h6 {
+    color: #555;
+    font-weight: 600;
+}
+
+.page-resume .content .content-right .experience .content p {
+	color: #888;
+	margin-left: 10px;
+}
+
+.page-resume .content .content-right .experience .content i {
+	font-size: 0.8rem;
+    margin-left: 3px;
+    margin-right: 5px;
+    color: #00B0FF;	
+}
+
+.page-resume .download {
+	margin-top: 50px;
+    text-align: center;
+}
+
+.page-tech .list {
+	margin: 25px 3%;
+    padding-top: 10px;
+}
+
+.page-tech .list .chr {
+	max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-tech .list .chr .img img {
+	width: 260px;
+	height: 200px;
+	float: left;
+}
+
+.page-tech .list .chr .content {
+	padding-top: 15px;	
+	margin-left: 285px;
+	margin-right: 25px;
+}
+
+.page-tech .list .chr .content .title {
+    font-size: 1.3rem;
+}
+
+.page-tech .list .chr .content .time i {
+	position: absolute;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.page-tech .list .chr .content .time span {
+	margin-left: 30px;
+	color: #888;
+	font-size: 0.85rem;
+}
+
+.page-tech .list .chr .content .sub {
+	color: #777;
+}
+
+.page-tech .list .chr .content .sub i {
+	color: #999;
+	font-size: 0.8rem;
+    margin-left: 5px;
+    margin-right: 13px;
+}
+
+.page-tech .pages {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.page-work .list {
+    margin: 25px 3%;
+    padding-top: 20px;	
+}
+
+.page-work .list .chr .header .border {
+	width: 185px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    background-color: #314163;
+    border-radius: 28px;
+    border: 2px solid #314163;
+}
+
+.page-work .list .chr .header .border h5 {
+	color: #FFF;
+	margin: 5px;
+	font-size: 1.58rem;
+	font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-work .list .chr .content .con {
+	max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-work .list .chr .content .con a {
+	display: block;
+	max-width: 300px;
+	height: 300px;
+}
+
+.page-work .list .chr {
+	margin-bottom: 30px;
+}
+
+.page-about .about {
+	margin: 25px 3.5%;
+}
+
+.page-about .about .header {
+	max-width: 500px;
+	padding-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .about .header h4 {
+	color: #252425;
+    font-size: 2.1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.page-about .about .header hr {
+	max-width: 120px;
+	height: 2px;
+    border: none;
+    border-top: 2px solid #252425;
+}
+
+.page-about .about .content {
+	max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .about .content p {
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-about .exp {
+	margin: 25px 4.5%;
+}
+
+.page-about .exp h5 {
+	text-align: center;
+	color: #666;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-about .exp h6 {
+	font-size: 1.05rem;
+	color: #333;
+	text-align: center;
+}
+
+.page-about .exp hr {
+	height: 1px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.page-about .exp p {
+	color: #555;
+	text-indent: 2em;
+}
+
+.page-about .exp .first {
+	margin-top: 45px;
+	max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .exp .second {
+	margin-top: 30px;
+	max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .skills {
+	margin: 25px 3.5%;
+}
+
+.page-about .skills .header {
+	max-width: 500px;
+	padding-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .skills .header h4 {
+	color: #252425;
+    font-size: 2.1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.page-about .skills .header hr {
+	max-width: 75px;
+	height: 2px;
+    border: none;
+    border-top: 2px solid #252425;
+}
+
+.page-about .skills .content {
+	padding-top: 30px;
+	text-align: center;
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .skills .content img {
+	width: 58px;
+}
+
+.page-about .skills .content p {
+	color: #888;
+}
+
+.page-about .skills .other .content {
+	padding-top: 18px;
+	text-align: center;
+	max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-about .skills .other h5 {
+	color: #666;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.page-tech-article .content {
+	margin: 25px 2%;
+    padding-top: 15px;
+}
+
+.page-tech-article .content .article {
+	height: 1000px;
+	max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-work-article .content {
+	margin: 25px 2%;
+    padding-top: 15px;
+}
+
+.page-work-article .content .article {
+	height: 1000px;
+	max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-content .article .header h4 {
+	color: #333;
+	padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+	font-size: 1.6rem;
+}
+
+.right-content .article .header .time i {
+	margin-left: 15px;
+	position: absolute;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.right-content .article .header .time span {
+	margin-left: 45px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.right-content .article .header hr {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #DDD;
+}
