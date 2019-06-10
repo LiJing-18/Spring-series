@@ -237,7 +237,7 @@
     <session id="858622291">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="1" />
@@ -293,7 +293,7 @@
           <entry key="java" value="1877" />
           <entry key="js" value="4" />
           <entry key="jsp" value="195" />
-          <entry key="md" value="94" />
+          <entry key="md" value="131" />
           <entry key="xml" value="539" />
         </counts>
       </usages-collector>
@@ -303,7 +303,7 @@
           <entry key="JAVA" value="1877" />
           <entry key="JSP" value="195" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="94" />
+          <entry key="Markdown" value="131" />
           <entry key="PLAIN_TEXT" value="136" />
           <entry key="XML" value="539" />
         </counts>
@@ -311,20 +311,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
-                <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -424,9 +411,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
-    <option name="y" value="18" />
-    <option name="width" value="1893" />
+    <option name="x" value="434" />
+    <option name="y" value="52" />
+    <option name="width" value="1674" />
     <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -489,7 +476,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560151868725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560151976385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aone_old" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -875,18 +862,17 @@
       <workItem from="1559811231277" duration="7395000" />
       <workItem from="1559877255422" duration="1629000" />
       <workItem from="1560135667370" duration="6535000" />
-      <workItem from="1560142373105" duration="6888000" />
+      <workItem from="1560142373105" duration="7433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96011000" />
+    <option name="totallyTimeSpent" value="96556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="0" width="1893" height="944" extended-state="0" />
-    <editor active="true" />
+    <frame x="434" y="52" width="1674" height="944" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27347612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3108614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1329,8 +1315,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <first_editor relative-caret-position="459">
+            <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
