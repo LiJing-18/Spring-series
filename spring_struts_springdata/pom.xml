@@ -16,7 +16,7 @@
 
     <properties>
         <spring.version>3.2.11.RELEASE</spring.version>
-        <struts.version>2.3.32</struts.version>
+        <struts.version>2.5.26</struts.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
