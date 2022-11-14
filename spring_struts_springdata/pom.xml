@@ -15,7 +15,7 @@
 
 
     <properties>
-        <spring.version>3.2.11.RELEASE</spring.version>
+        <spring.version>3.2.18.RELEASE</spring.version>
         <struts.version>2.3.32</struts.version>
     </properties>
     <dependencies>
